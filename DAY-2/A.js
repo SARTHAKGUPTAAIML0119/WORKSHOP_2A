@@ -12,9 +12,17 @@
 //     console.log("B>A, B=",b);
 // }
 
-console.log("=====FUNCTION=====");
-function abes(){
-    console.log("Welcome Students");
-    console.log("Welcome to Node.js");
-}
-abes();
+// console.log("=====FUNCTION=====");
+// function abes(){
+//     console.log("Welcome Students");
+//     console.log("Welcome to Node.js");
+// }
+// abes();
+
+// console.log("=====FUNCTIONS WITH PARAMETERS=====")
+// function name(n){
+//     console.log("HELLO",n);
+
+// }
+
+// name("sarthak gupta")
