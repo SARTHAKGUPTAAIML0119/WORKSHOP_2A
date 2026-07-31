@@ -26,3 +26,10 @@
 // }
 
 // name("sarthak gupta")
+
+// console.log("=====FUNCTION RETURN=====");
+// function add(x,y){
+//     return x+y;
+// }
+// var result=add(20,30);
+// console.log("SUM=",result);
