@@ -33,3 +33,11 @@
 // }
 // var result=add(20,30);
 // console.log("SUM=",result);
+
+// console.log("=====DEFAULT ARGUMENTS=====");
+// function fullname(fname="ABES",lname="Engineering College"){
+//     return fname+" "+lname;
+// }
+
+// console.log(fullname());
+// console.log(fullname("SARTHAK","GUPTA"));
