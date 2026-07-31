@@ -41,3 +41,14 @@
 
 // console.log(fullname());
 // console.log(fullname("SARTHAK","GUPTA"));
+
+// console.log("=====PERCENTAGE=====");
+// function totalmarks(math,english,science){
+//     return math + english + science;
+// }
+// function percentage(total){
+//     return(total/300)*100;
+// }
+// var total=totalmarks(80,74,92);
+// console.log("TOTAL MARKS: ",total);
+// console.log("PERCENTAGE :",percentage(total)+"%");
