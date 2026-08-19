@@ -102,7 +102,12 @@ console.log("Math.sign(-4) - Returns -1, 0, or 1 based on the sign:", Math.sign(
 console.log("Math.pow(8, 2) - Returns 8 to the power of 2:", Math.pow(8, 2));
 console.log("Math.sqrt(64) - Returns the square root of 64:", Math.sqrt(64));
 console.log("Math.abs(-4.7) - Returns the absolute (positive) value:", Math.abs(-4.7));
-console.log("minimum of 10,20,30,40,50 = ",Math.min(10,20,30,40,50));
+console.log("Minimum of 10,20,30,40,50 = ",Math.min(10,20,30,40,50));
+console.log("Maximum of 10,20,30,40,50 = ",Math.max(10,20,30,40,50));
+
+arr1=[1,2,3,4,5];
+console.log("Minimum of arr1 list =",Math.min(...arr1));
+
 
 
 
