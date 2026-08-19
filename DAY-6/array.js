@@ -74,6 +74,7 @@ console.log(date);
 //Get Full Year
 
 console.log("YEAR=",date.getFullYear());
-console.log("MONTH=",date.getMonth());
+// console.log("MONTH=",date.setMonth(12)); //MONTH INDEXING STARTS FROM 0 HENCE RESTARTS FROM 0 AFTER 11.
+console.log("MONTH =",date.getMonth()); //SHOWS ONE MONTH BEHIND BECAUSE INDEXING START FROM 0.
 console.log("DATE=",date.getDate());
 console.log("Milliseconds=",date.getMilliseconds());
