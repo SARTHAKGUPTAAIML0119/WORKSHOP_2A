@@ -1,5 +1,5 @@
 console.log("=====STRING OBJECT=====");
-let name="SARTHAK THAK";
+let name="SARTHAK , THAKTA , HAI";
 console.log(name);
 
 //STRING LENGTH
@@ -27,3 +27,12 @@ console.log("Last Index of THAK",name.lastIndexOf("THAK"));
 
 console.log("Slice =",name.slice(0,2));
 
+//7. Split
+
+console.log("Split =",name.split(","));
+
+//8. Replace()
+console.log("ORIGINAL =",name)
+console.log("Replace HAI WITH NHI =",name.replace("HAI","NHI"));
+
+//9. 
