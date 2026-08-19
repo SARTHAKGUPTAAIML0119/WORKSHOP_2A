@@ -67,3 +67,13 @@ console.log("AFTER UNSHIFT=",nums);
 nums.shift();
 console.log("AFTER SHIFT =",nums);
 
+console.log("=====DATE OBJECT=====");
+let date= new Date();
+console.log(date);
+
+//Get Full Year
+
+console.log("YEAR=",date.getFullYear());
+console.log("MONTH=",date.getMonth());
+console.log("DATE=",date.getDate());
+console.log("Milliseconds=",date.getMilliseconds());
