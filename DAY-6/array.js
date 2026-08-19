@@ -45,3 +45,25 @@ console.log("=====INCLUDES=====");
 let course="JavaScript";
 console.log(course.includes("Script"));
 console.log(course.includes("Python"));
+
+//--------------------------------
+//ARRAY OBJECT
+//--------------------------------
+let nums=[1,2,3,4,5];
+// let arr=[{id:1,name:a},{id:2,name:b}];
+console.log(nums);
+
+//Access Array Element
+
+console.log(nums[2]);
+
+console.log("=====ARRAY METHODS=====");
+
+//unshift(val) - adds an element at starting
+nums.unshift(6);
+console.log("AFTER UNSHIFT=",nums);
+
+//shift() - removes starting element
+nums.shift();
+console.log("AFTER SHIFT =",nums);
+
