@@ -1,5 +1,5 @@
 console.log("=====STRING OBJECT=====");
-let name="SARTHAK";
+let name="SARTHAK THAK";
 console.log(name);
 
 //STRING LENGTH
@@ -13,3 +13,12 @@ console.log("Upper Case =", name.toUpperCase());
 
 //2. To lower case
 console.log("Lower Case =",name.toLowerCase())
+
+//3. charAt()
+console.log("CHARACTER AT INDEX 3=",name.charAt(3));
+
+//4. indexOf() - first occourance of variable
+console.log("Index of THAK",name.indexOf("THAK"));
+
+//5. lastIndexOf() - last occourance of variable
+console.log("Last Index of THAK",name.lastIndexOf("THAK"));
