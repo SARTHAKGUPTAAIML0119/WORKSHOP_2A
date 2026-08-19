@@ -34,5 +34,14 @@ console.log("Split =",name.split(","));
 //8. Replace()
 console.log("ORIGINAL =",name)
 console.log("Replace HAI WITH NHI =",name.replace("HAI","NHI"));
+name = name.replace("HAI","NHI");
 
-//9. 
+//9. concat()
+str=" , KABHI";
+console.log("Concat str to name =",name.concat(str));
+
+
+console.log("=====INCLUDES=====");
+let course="JavaScript";
+console.log(course.includes("Script"));
+console.log(course.includes("Python"));
