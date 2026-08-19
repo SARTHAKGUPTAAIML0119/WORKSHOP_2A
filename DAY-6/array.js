@@ -22,3 +22,8 @@ console.log("Index of THAK",name.indexOf("THAK"));
 
 //5. lastIndexOf() - last occourance of variable
 console.log("Last Index of THAK",name.lastIndexOf("THAK"));
+
+//6. Slice()
+
+console.log("Slice =",name.slice(0,2));
+
